@@ -1,1 +1,19 @@
+# Lyrics Generator
 
+This project transcribes a song, translates each line to Malayalam, and creates
+both a lyric video and an image containing the entire translated lyrics.
+
+## Requirements
+Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+Provide the path to an audio file:
+```bash
+python lyrics_generator.py path/to/song.mp3
+```
+The script will generate:
+- `lyrics_video.mp4` – a video with the Malayalam lyrics shown as the song plays.
+- `lyrics_image.png` – an image with the full Malayalam lyrics.
